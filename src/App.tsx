@@ -4,7 +4,7 @@ import './App.css'
 
 // const a = 1
 // const b = a ? 2 : 1
-// const c = 3
+const c = 3
 
 function App() {
   const [count, setCount] = useState(0)
