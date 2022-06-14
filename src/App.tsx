@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 
-// const a = 1
+const a = 1
 // const b = a ? 2 : 1
 const c = 3
 
