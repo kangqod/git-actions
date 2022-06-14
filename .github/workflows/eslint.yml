@@ -40,7 +40,7 @@ jobs:
             ${{ runner.os }}-pnpm-store-
 
       - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: steps.pnpm-cache.outputs.cache-hit == ''
         run: pnpm install
 
       - name: Run ESLint
